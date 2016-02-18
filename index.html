@@ -1,285 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio by AdamLawicki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Regal Isle</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/portfolio.css" rel="stylesheet">
-        <link href="css/hover.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Navigation: Turning off for now-->
-<!--    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Regal Isle</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About Regal</a>
-            </li>
-            <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Island Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >For Sale</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
-    </nav>
-  -->
-    <!-- Header -->
-    <section id="intro" data-speed="6" data-type="background">
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <div class="box"><h1>Regal Isle</h1>
-            <h3>The beach is a beautiful place to live. Regal Isle is even better.</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Learn More</a></div>
-        </div>
-    </header>
-</section>
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center about-text">
-                    <h2>A community of leaders.</h2>
-                    <p class="lead">From Actor Wayne John to Singer Christina Spears, this premiere island is home to many major players.</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Portfolio</h1>
+      <h2 class="project-tagline">A stylish, one page, Bootstrap Portfolio.</h2>
+      <a href="https://github.com/AdamLawicki/startbootstrap-stylish-portfolio" class="btn">View on GitHub</a>
+      <a href="https://github.com/AdamLawicki/startbootstrap-stylish-portfolio/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/AdamLawicki/startbootstrap-stylish-portfolio/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
-    <!-- Resources -->
-    <!--Using Font Awesome's stacked icon classes. -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Island Resources</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-ship fa-stack-1x fonta-text"></i>
-                            </span>
-                                <h4>
-                                    <strong>Docks</strong>
-                                </h4>
-                                <p>Secure your yacht and protect your boat from harm.</p>
-                                <a href="#" class="btn btn-light">Browse Docks</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-home fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Private Clubhouse</strong>
-                                </h4>
-                                <p>Exclusively for island residents, rent the Clubhouse for Weddings, Dinners, or Ceremonies.</p>
-                                <a href="#" class="btn btn-light">View Availability</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-life-ring fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Beaches</strong>
-                                </h4>
-                                <p>Enjoy secluded beaches, fun for the whole family.</p>
-                                <a href="#" class="btn btn-light">Find a Beach</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-soccer-ball-o fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Parks</strong>
-                                </h4>
-                                <p>Designed for various recreational activities, over 5 parks located on the island are open to all residents.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+    <section class="main-content">
+      <h3>
+<a id="what-is-portfolio" class="anchor" href="#what-is-portfolio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is Portfolio?</h3>
+
+<p>Portfolio is a clean, modern portfolio-style website theme.</p>
+
+<h3>
+<a id="why-portfolio" class="anchor" href="#why-portfolio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why Portfolio?</h3>
+
+<p>Because it's 2016!</p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>Thanks to <a href="https://github.com/davidtmiller" class="user-mention">@davidtmiller</a> and <a href="https://github.com/jawadnassar" class="user-mention">@jawadnassar</a> for the vanilla!</p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Portfolio? Check out our <a href="https://help.github.com/">documentation</a> or <a href="https://twitter.com/itslawicki">contact Adam</a> and we’ll help you sort it out.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/AdamLawicki/startbootstrap-stylish-portfolio">Portfolio</a> is maintained by <a href="https://github.com/AdamLawicki">AdamLawicki</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
     </section>
 
-    <!-- Callout -->
-    <section id="home" data-speed="6" data-type="background">
-      <aside class="callout">
-        <div class="text-vertical-center">
-
-              <div class="box callout-text"><h1>250</h1>
-              <h3>acres of pure California beach life.</h3>
-
-        </div>
-    </aside>
-  </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Homes for Sale</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive hvr-bounce-in" src="http://www.homegardenco.com/wp-content/uploads/2013/04/Luxury-elegant-beach-house-design-gallery1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive hvr-bounce-in" src="http://lamidge.net/wp-content/uploads/2013/06/Modern-Chic-Beach-House.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive hvr-bounce-in" src="https://s-media-cache-ak0.pinimg.com/564x/37/61/29/376129c2d87e96883ac67464e2042a59.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive hvr-bounce-in" src="http://2.bp.blogspot.com/-0Gx7CLnHdRM/UNNRhxZiimI/AAAAAAAABOo/Dv47EcvrvyQ/s1600/beach-house-designing-ideas+(3).jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Homes</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Interested in the Regal Lifestyle?</h3>
-                    <a href="#" class="btn btn-lg btn-light">Apply for Residence</a>
-                    <a href="#" class="btn btn-lg btn-dark">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6645.422455480061!2d-117.92103420246123!3d33.6127963225324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce0070cd713f7%3A0xa64536bde45e735a!2sLido+Isle%2C+Newport+Beach%2C+CA+92663!5e0!3m2!1sen!2sus!4v1455829298470"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6645.422455480061!2d-117.92103420246123!3d33.6127963225324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce0070cd713f7%3A0xa64536bde45e735a!2sLido+Isle%2C+Newport+Beach%2C+CA+92663!5e0!3m2!1sen!2sus!4v1455829298470"></a>
-        </small>
-        </iframe>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Regal Isle</strong>
-                    </h4>
-                    <p>Regal Isle<br>Newport Beach, CA 92659</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (949) 000-0000</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Regal Isle 2016</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom JavaScript -->
-    <script src="js/parallax.js"></script>
-
-
-
-</body>
-
+  
+  </body>
 </html>
